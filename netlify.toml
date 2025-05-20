@@ -1,5 +1,6 @@
 [build]
-  command = "./netlify_build.sh"
+  base = "client"
+  command = "npm run build"
   publish = "dist"
 
 [[redirects]]
