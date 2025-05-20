@@ -1,0 +1,9 @@
+# Netlify specific files
+.netlify
+# Build files
+dist/
+# Dependencies
+node_modules/
+# Environment variables
+.env
+.env.local
