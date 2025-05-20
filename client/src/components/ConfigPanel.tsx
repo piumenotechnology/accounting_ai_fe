@@ -51,11 +51,11 @@ const ConfigPanel = ({ sessionId, table, tableOptions, setTable }: ConfigPanelPr
               >
                 {tableOptions.map((option) => (
                   <option key={option} value={option}>
-                    {option === "AR" ? "Accounts Receivable (AR)" : 
-                     option === "AP" ? "Accounts Payable (AP)" : 
-                     option === "ClosedDeal" ? "Closed Deals" : 
-                     option === "Payment" ? "Payments" : 
-                     option === "Invoice" ? "Invoices" : option}
+                    {option === "ar" ? "Accounts Receivable (AR)" : 
+                     option === "ap" ? "Accounts Payable (AP)" : 
+                     option === "closed_deal" ? "Closed Deals" : 
+                     option === "payment" ? "Payments" : 
+                     option === "invoice" ? "Invoices" : option}
                   </option>
                 ))}
               </select>

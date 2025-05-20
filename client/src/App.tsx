@@ -23,11 +23,11 @@ function App() {
   
   // Table options for dropdown 
   const tableOptions = [
-    "ClosedDeal",
-    "Payment",
-    "Invoice",
-    "AR",
-    "AP"
+    "closed_deal",
+    "payment",
+    "invoice",
+    "ar",
+    "ap"
   ];
   
   // State for selected table
@@ -128,10 +128,10 @@ function App() {
                 
                 <h2 className="text-2xl font-bold text-gray-800 mb-3">Financial Insights AI</h2>
                 <p className="text-gray-600 mb-6 text-lg">
-                  Get instant answers about your {table === "ClosedDeal" ? "closed deals" : 
-                              table === "Payment" ? "payments" : 
-                              table === "Invoice" ? "invoices" : 
-                              table === "AR" ? "accounts receivable" : 
+                  Get instant answers about your {table === "closed_deal" ? "closed deals" : 
+                              table === "payment" ? "payments" : 
+                              table === "invoice" ? "invoices" : 
+                              table === "ar" ? "accounts receivable" : 
                               "accounts payable"} data
                 </p>
                 
